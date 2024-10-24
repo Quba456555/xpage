@@ -1,0 +1,22 @@
+header {
+  width: 100vw;
+  height: 15vh;
+  background-color: $color2;
+  display: flex; // Użycie flexbox do centrowania tekstu
+  align-items: center; // Wyśrodkowanie elementów w pionie
+  justify-content: center; // Wyśrodkowanie elementów w poziomie
+  padding: 0 1em; // Dodanie paddingu, aby tekst nie przylegał do krawędzi
+
+  
+}
+
+// Ustawienia dla mniejszych ekranów
+@media (max-width: 768px) {
+  header {
+    height: 20vh; // Można zwiększyć wysokość nagłówka na mniejszych ekranach
+
+    h1 {
+      font-size: 6vw; // Dostosowanie rozmiaru czcionki dla mniejszych ekranów
+    }
+  }
+}
